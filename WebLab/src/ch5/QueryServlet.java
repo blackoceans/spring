@@ -36,7 +36,7 @@ public class QueryServlet extends HttpServlet {
 		out.println("name : "+request.getParameter("name")+"<br/>");
 		out.println("password : "+request.getParameter("password")+"<br/>");
 		out.println("sex : "+request.getParameter("sex")+"<br/>");
-		out.println("°ü½É»çÇ× : ");
+		out.println("À× : ");
 		String favors[] = request.getParameterValues("favor");
 		for(String favor: favors) {
 			out.println(favor+", ");

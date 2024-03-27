@@ -34,7 +34,7 @@ public class ResponseTest extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		out.println("<h1>HelloWorld</h1><br/>");
-		out.println("<h1>�ȳ��ϼ���</h1>");
+		out.println("<h1>¾È³çÇÏ¼¼¿ä</h1>");
 	}
 
 	/**
