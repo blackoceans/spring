@@ -12,7 +12,7 @@ import javax.servlet.annotation.WebFilter;
 /**
  * Servlet Filter implementation class OneFilter
  */
-@WebFilter("/*")
+@WebFilter("/One")
 public class OneFilter implements Filter {
 
     /**
