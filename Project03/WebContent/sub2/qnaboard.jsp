@@ -16,7 +16,7 @@
 <body>
 	<%@ include file="../include/header.jsp" %>
 	<section id="mainTop2">
-		<div class="mainTopLeftLogo cf showBalloon" title="메인 페이지"><a href="../sub1/board.html" tabindex="194"><img src="../images/subpageLogo.png" alt="시청 메인 로고2"/></a>			
+		<div class="mainTopLeftLogo cf showBalloon" title="메인 페이지"><a href="../sub1/board.jsp" tabindex="194"><img src="../images/subpageLogo.png" alt="시청 메인 로고2"/></a>			
 		</div>
 		<div id="mainTopRightLogo1" class="cf">
 			<div id="mainTopRightLogo2">
@@ -39,15 +39,15 @@
 							<li>신청하신 민원은'민원 처리에 관한 법률 및 시행령'에 따라 처리되고 있습니다</li>
 							<li>서울시 및 25개 자치구, 서울시 사업소 및 산하기관의 업무는 응답소 시스템을 통해 답변드리고 있으며, 서울시 이외의 민원은 정부부처, 타 지방 자치단체,공공기관 등 해당 기관으로 이송 처리됩니다</li>
 							<li>민원결과는 이메일,서신 중 선택한 방법을 통해 확인하실 수 있습니다</li>
-							<li>불법주정차,도로안전,쓰레기무단투기 등 시민생활과 밀접한 생활불편 및 안전사고 위험요인 신고는 <a href="../index.html" tabindex="195">스마트불편신고</a>를 이용해주시기 바랍니다</li>
+							<li>불법주정차,도로안전,쓰레기무단투기 등 시민생활과 밀접한 생활불편 및 안전사고 위험요인 신고는 <a href="../index.jsp" tabindex="195">스마트불편신고</a>를 이용해주시기 바랍니다</li>
 						</ol>
 					</li>
 				</ol>
 			</div>
 			<div class="subNoticeIcon">
 				<ol>
-					<li class="showBalloon" title="결과"><a href="../login/login.html" tabindex="196">결과보기</a></li>
-					<li class="showBalloon" title="민원신청"><a href="../index.html" tabindex="197">민원신청하기</a></li>
+					<li class="showBalloon" title="결과"><a href="../login/login.jsp" tabindex="196">결과보기</a></li>
+					<li class="showBalloon" title="민원신청"><a href="../index.jsp" tabindex="197">민원신청하기</a></li>
 				</ol>
 			</div>
 		</div>
@@ -64,7 +64,7 @@
 				<option value="번호">번호</option>
 			</select>
 			<input type="text" class="showBalloon" title="검색창"/>
-			<a href="../sub1/board.html" tabindex="198" class="showBalloon" title="검색버튼"><img src="../images/SearchBarIcon.png" height="34" alt="SearchBarIcon"/></a>
+			<a href="../sub1/board.jsp" tabindex="198" class="showBalloon" title="검색버튼"><img src="../images/SearchBarIcon.png" height="34" alt="SearchBarIcon"/></a>
 		</div>
 	</section>
 	<article id="subBoardWrap" class="showBalloon" title="게시판">
@@ -154,16 +154,16 @@
 				<button class="button2 showBalloon" title="이전으로">&lt;</button>
 			</div>
 			<div class="pageNumber">
-				<div class="page"><a class="activeNumber" href="../login/login.html" tabindex="243">1</a></div>
-				<div class="page"><a href="../index.html" tabindex="244">2</a></div>
-				<div class="page"><a href="../login/login.html" tabindex="245">3</a></div>
-				<div class="page"><a href="../login/login.html" tabindex="246">4</a></div>
-				<div class="page"><a href="../index.html" tabindex="247">5</a></div>
-				<div class="page"><a href="../index.html" tabindex="248">6</a></div>
-				<div class="page"><a href="../login/login.html" tabindex="249">7</a></div>
-				<div class="page"><a href="../index.html" tabindex="250">8</a></div>
-				<div class="page"><a href="../index.html" tabindex="251">9</a></div>
-				<div class="page"><a href="../login/login.html" tabindex="252">10</a></div>
+				<div class="page"><a class="activeNumber" href="../login/login.jsp" tabindex="243">1</a></div>
+				<div class="page"><a href="../index.jsp" tabindex="244">2</a></div>
+				<div class="page"><a href="../login/login.jsp" tabindex="245">3</a></div>
+				<div class="page"><a href="../login/login.jsp" tabindex="246">4</a></div>
+				<div class="page"><a href="../index.jsp" tabindex="247">5</a></div>
+				<div class="page"><a href="../index.jsp" tabindex="248">6</a></div>
+				<div class="page"><a href="../login/login.jsp" tabindex="249">7</a></div>
+				<div class="page"><a href="../index.jsp" tabindex="250">8</a></div>
+				<div class="page"><a href="../index.jsp" tabindex="251">9</a></div>
+				<div class="page"><a href="../login/login.jsp" tabindex="252">10</a></div>
 			</div>
 			<div class="afterbutton">
 				<button class="button1 showBalloon" title="다음으로">&gt;</button>
