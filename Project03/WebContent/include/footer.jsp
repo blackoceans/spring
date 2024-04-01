@@ -3,13 +3,13 @@
 	<footer id="commonBottomMenu">
 		<div id="mainBottomMenu2">
 			<ol>
-				<li class="showBalloon" title="누리집 도우미"><a href="sub1/board.html" tabindex="301">누리집 도우미</a></li>
-				<li class="showBalloon" title="개인정보처리방침"><a href="login/login.html" style="color:red;" tabindex="302">개인정보처리방침</a></li>
-				<li class="showBalloon" title="저작권 정책"><a href="sub2/qnaboard.html" tabindex="303">저작권 정책</a></li>
-				<li class="showBalloon" title="영상정보처리기기 운영 관리방침"><a href="login/login.html" tabindex="304">영상정보처리기기 운영 관리방침</a></li>
-				<li class="showBalloon" title="누리집 바로잡기"><a href="sub1/board.html" tabindex="305">누리집 바로잡기</a></li>
-				<li class="showBalloon" title="누리집지도"><a href="sub2/qnaboard.html" tabindex="306">누리집지도</a></li>
-				<li><a href="login/login.html" tabindex="307"></a></li>
+				<li class="showBalloon" title="누리집 도우미"><a href="sub1/board.jsp" tabindex="301">누리집 도우미</a></li>
+				<li class="showBalloon" title="개인정보처리방침"><a href="login/login.jsp" style="color:red;" tabindex="302">개인정보처리방침</a></li>
+				<li class="showBalloon" title="저작권 정책"><a href="sub2/qnaboard.jsp" tabindex="303">저작권 정책</a></li>
+				<li class="showBalloon" title="영상정보처리기기 운영 관리방침"><a href="login/login.jsp" tabindex="304">영상정보처리기기 운영 관리방침</a></li>
+				<li class="showBalloon" title="누리집 바로잡기"><a href="sub1/board.jsp" tabindex="305">누리집 바로잡기</a></li>
+				<li class="showBalloon" title="누리집지도"><a href="sub2/qnaboard.jsp" tabindex="306">누리집지도</a></li>
+				<li><a href="login/login.jsp" tabindex="307"></a></li>
 			</ol>
 		</div>		
 		<div id="mainBottomCopy">
