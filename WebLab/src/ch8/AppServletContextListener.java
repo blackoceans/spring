@@ -22,14 +22,14 @@ public class AppServletContextListener implements ServletContextListener {
      * @see ServletContextListener#contextDestroyed(ServletContextEvent)
      */
     public void contextDestroyed(ServletContextEvent sce)  { 
-        System.out.println("application이 종료 되었습니다");
+        System.out.println("application 끝납니다");
     }
 
 	/**
      * @see ServletContextListener#contextInitialized(ServletContextEvent)
      */
     public void contextInitialized(ServletContextEvent sce)  { 
-    	System.out.println("application이 실행 되었습니다");
+    	System.out.println("application 시작합니다");
     }
 	
 }
