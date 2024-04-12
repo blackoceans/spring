@@ -3,11 +3,12 @@ package biz.board;
 import java.sql.Date;
 
 public class BoardVO {
-	private int seq;
-	private String title;
-	private String writer;
-	private String content;
-	private Date regDate;
+    private int seq;
+    private String title;
+    private String writer;
+    private String content;
+    private Date regDate;
+    
 	public int getSeq() {
 		return seq;
 	}
@@ -38,10 +39,11 @@ public class BoardVO {
 	public void setRegDate(Date regDate) {
 		this.regDate = regDate;
 	}
-	
+    
 	@Override
 	public String toString() {
 		return "BoardVO [seq=" + seq + ", title=" + title + ", writer=" + writer + ", content=" + content + ", regDate="
 				+ regDate + "]";
 	}
+    
 }

@@ -1,10 +1,10 @@
 package biz.user;
 
 public class UserVO {
-	private String id;
-	private String password;
-	private String name;
-	private String role;
+    private String id;
+    private String password;
+    private String name;
+    private String role;
 	public String getId() {
 		return id;
 	}
@@ -30,11 +30,9 @@ public class UserVO {
 		this.role = role;
 	}
 	
-	//toString 함수를 오버라이드 받아서 데이터 출력되도록
+	//toString 함수를 오버라이드 받아서 데이터 출력되도록 구현함
 	@Override
 	public String toString() {
 		return "UserVO [id=" + id + ", password=" + password + ", name=" + name + ", role=" + role + "]";
 	}
-	
-	
 }

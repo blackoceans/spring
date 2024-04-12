@@ -1,7 +1,5 @@
 package controller.board;
 
-import java.util.List;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -9,16 +7,20 @@ import biz.board.BoardDAO;
 import biz.board.BoardVO;
 import controller.Controller;
 
-public class GetBoardListController implements Controller {
+public class GetBoardController implements Controller {
 
 	@Override
 	public String handlerRequest(HttpServletRequest request, HttpServletResponse response) {
+		String seq = request.getParameter("seq");
+		
         BoardVO vo = new BoardVO();
-        BoardDAO dao = new BoardDAO();
+        vo.setSeq(Integer.parseInt(seq));
         
-        List<BoardVO> boardList = dao.getBoardList(vo);
-        request.setAttribute("boardList", boardList);
-        return "getBoardList.jsp";
+        BoardDAO dao = new BoardDAO();
+        BoardVO board = dao.getBoard(vo);
+        
+        request.setAttribute("board", board);
+        return "getBoard.jsp";
 	}
 
 }

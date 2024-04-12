@@ -6,13 +6,13 @@ import javax.servlet.http.HttpSession;
 
 import controller.Controller;
 
-public class LogoutController implements Controller{
+public class LogoutController implements Controller {
 
 	@Override
 	public String handlerRequest(HttpServletRequest request, HttpServletResponse response) {
-		HttpSession session = request.getSession();
-		session.invalidate();
-		return "login.html";
+        HttpSession session = request.getSession();
+        session.invalidate();
+        return "login.html";
 	}
 
 }

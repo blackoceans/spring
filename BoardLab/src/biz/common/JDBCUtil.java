@@ -6,11 +6,11 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class JDBCUtil {
-	public static Connection getConnetion() {
+	public static Connection getConnection() {
 		try {
-			Class.forName("org.h2.Driver");
-			String url = "jdbc:h2:tcp://localhost/~/test/h2";
-			return DriverManager.getConnection(url, "sa", "");
+            Class.forName("org.h2.Driver");
+            String url = "jdbc:h2:tcp://localhost/~/test/h2";
+            return DriverManager.getConnection(url, "sa", "");			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -19,41 +19,37 @@ public class JDBCUtil {
 	
 	public static void close(Statement stmt, Connection conn) {
 		try {
-			if(stmt != null) {
+			if(stmt != null)
 				stmt.close();
-			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
 			stmt = null;
 		}
+		
 		try {
-			if(conn != null) {
+			if(conn != null)
 				conn.close();
-			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
 			conn = null;
-		}		
-		
+		}	
 	}
 	
 	public static void close(ResultSet rs, Statement stmt, Connection conn) {
-		try {
-			if(rs != null) {
-				rs.close();
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		} finally {
-			rs = null;
-		}
+        try {
+            if(rs != null)
+                rs.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            rs = null;
+        }
 		
 		try {
-			if(stmt != null) {
+			if(stmt != null)
 				stmt.close();
-			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
@@ -61,15 +57,13 @@ public class JDBCUtil {
 		}
 		
 		try {
-			if(conn != null) {
+			if(conn != null)
 				conn.close();
-			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
 			conn = null;
-		}		
-		
+		}	
 	}
-	
+
 }
